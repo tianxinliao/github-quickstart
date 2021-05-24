@@ -127,6 +127,16 @@ Hi xxx! You've successfully authenticated, but GitHub does not provide shell acc
 git add -A
 ```
 
+- `git status` 命令用于查看在你上次提交之后是否有对文件进行再次修改
+
+```
+# 查看本地仓库状态
+git status
+
+# 可以使用 -s 参数来获得更简短的输出结果
+git status -s
+```
+
 -  `git commit` 命令将索引的当前内容与描述更改的用户和日志消息一起存储在新的提交中。可以简单的理解为给你刚才add的东西加一个备注，你上传到远程仓库之后，修改的文件后边会显示这个备注。
 
 ```
