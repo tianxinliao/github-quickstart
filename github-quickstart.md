@@ -58,7 +58,7 @@ Your public key has been saved in /c/Users/86133/.ssh/id_rsa.pub.
 
 - 看到这个说明成功了
 
-![](C:\Users\86133\Desktop\github-quickstart\img\1.png)
+![](https://raw.githubusercontent.com/tianxinliao/github-quickstart/master/img/1.png)
 
 - 添加 SSH Key 到 github
   - 右上角头像 — Settings — SSH and GPG keys — new SSH key 
@@ -143,7 +143,7 @@ git status -s
 >>> git commit -m "添加了readme"
 ```
 
-![](C:\Users\86133\Desktop\github-quickstart\img\4.png)
+![](https://raw.githubusercontent.com/tianxinliao/github-quickstart/master/img/4.png)
 
 - `git push` 把文件推到远程仓库
 
@@ -153,7 +153,7 @@ git push -u 仓库名称 分支
 >>> git push -u origin master
 ```
 
-![](C:\Users\86133\Desktop\github-quickstart\img\2.png)
+![](https://raw.githubusercontent.com/tianxinliao/github-quickstart/master/img/2.png)
 
 - 我们第一次推送master分支时，加上 `–u`参数才会把本地的master分支和远程的master分支关联起来，就是告诉远程仓库的master分支，我的本地仓库和是对着它的。
 - 只有第一次推的时候需要加上`-u`，以后的推送只输入 `git push 名称 分支`
@@ -181,7 +181,7 @@ github你可以理解为差额备份，就是你本地提交上去之后，它�
 - 上边push报错，我自己知道数据差在哪里，所以使用了强制推送。但是在团队合作中，push报错，那铁定是你队友修改了远程仓库，如果你再强制上传，那你就是毁了你队友的代码。所以如何保证在你修改之前，自己的文件跟远程仓库一致。
 - `git pull 仓库名称`
 
-![](C:\Users\86133\Desktop\github-quickstart\img\3.png)
+![](https://raw.githubusercontent.com/tianxinliao/github-quickstart/master/img/3.png)
 
 ****
 
